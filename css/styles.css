@@ -136,7 +136,6 @@ img {
 
 .main-effective {
   background-color: #2e2f42;
-
   width: 1440px;
   margin-left: auto;
   margin-right: auto;
@@ -210,6 +209,12 @@ img {
 }
 .our-benefits-conteiner-li {
   width: calc((100% - 72px) / 4);
+}
+.our-benefits-conteiner-lidiv {
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  width: 264px;
+  height: 112px;
 }
 .section-two-name {
   font-weight: 500;
