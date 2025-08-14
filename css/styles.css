@@ -390,3 +390,35 @@ img {
   color: #f4f4fd;
   width: 264px;
 }
+
+.end-text-media {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+
+.container.footer {
+  display: flex;
+  gap: 120px;
+}
+
+.footer-social-ul {
+  display: flex;
+  gap: 16px;
+}
+
+.footer-social-a {
+  display: flex;
+  background-color: rgba(77, 90, 229, 1);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+}
+.footer-social-a:hover {
+  background-color: rgba(49, 208, 170, 1);
+}
