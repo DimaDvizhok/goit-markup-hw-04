@@ -178,6 +178,7 @@ img {
   border-radius: 4px;
   padding-left: 30px;
   padding-right: 30px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
 .button-stile:hover,
 .button-stile:focus {
@@ -215,6 +216,11 @@ img {
   border-radius: 4px;
   width: 264px;
   height: 112px;
+  margin-bottom: 8px;
+  background-color: #f4f4fd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .section-two-name {
   font-weight: 500;
