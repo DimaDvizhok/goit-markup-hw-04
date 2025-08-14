@@ -254,11 +254,34 @@ img {
 .team-color-back {
   background-color: #ffffff;
   border-radius: 0px 0px 4px 4px;
+  box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16),
+    0 2px 1px 0 rgba(46, 47, 66, 0.08);
+}
+
+.team-color-back:hover .team-social-li {
+  background-color: rgba(64, 75, 191, 1);
 }
 
 .team-color-back-div {
   padding-top: 32px;
-  padding-bottom: 32px;
+
+  margin-bottom: 8px;
+}
+.team-social-ul {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  margin-bottom: 32px;
+}
+
+.team-social-li {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: rgba(77, 90, 229, 1);
+  align-items: center;
+  justify-content: center;
 }
 
 .team-our-name {
