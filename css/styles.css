@@ -157,6 +157,7 @@ img {
   background-repeat: no-repeat;
   background-origin: padding-box;
   background-clip: padding-box;
+  background-position: center;
 }
 .main-effective-name {
   display: block;
