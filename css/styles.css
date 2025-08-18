@@ -457,6 +457,8 @@ img {
 .container.footer {
   display: flex;
   gap: 120px;
+  align-items: baseline;
+  margin-right: 120px;
 }
 
 .footer-social-ul {
@@ -477,4 +479,8 @@ img {
 .footer-social-a:hover,
 .footer-social-a:focus {
   background-color: rgba(49, 208, 170, 1);
+}
+
+.footer-social-svg {
+  fill: #f4f4fd;
 }
