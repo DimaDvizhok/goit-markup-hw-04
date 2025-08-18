@@ -138,7 +138,7 @@ img {
 
 .main-effective {
   background-color: #2e2f42;
-  width: 1440px;
+  max-width: 1440px;
   margin-left: auto;
   margin-right: auto;
   padding-bottom: 188px;
@@ -243,7 +243,7 @@ img {
 /* =========Style-main-team========= */
 .teambackground {
   background-color: #f4f4fd;
-  width: 1440px;
+  max-width: 1440px;
   margin-left: auto;
   margin-right: auto;
   padding-bottom: 120px;
@@ -340,6 +340,9 @@ img {
   column-gap: 24px;
   row-gap: 48px;
 }
+.portfolio-list-li {
+  cursor: pointer;
+}
 
 .portfilio-border {
   padding: 32px 16px;
@@ -362,6 +365,38 @@ img {
   letter-spacing: 0.02em;
   color: #434455;
 }
+
+.portfolio-img {
+  position: relative;
+  overflow: hidden;
+}
+/* .portfolio-list-li {
+  position: relative;
+  overflow: hidden;
+} */
+
+.portfolio-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #4d5ae5;
+  color: #f4f4fd;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  padding: 40px 32px;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  transform: translateY(100%);
+  transition: transform 250ms linear;
+}
+
+.portfolio-list-li:hover .portfolio-overlay {
+  transform: translateY(0);
+}
+
 /* =========/Style-main-portfolio========= */
 /* =========Style-footer========= */
 .end {
