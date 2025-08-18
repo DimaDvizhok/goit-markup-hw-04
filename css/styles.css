@@ -270,8 +270,17 @@ img {
     0 2px 1px 0 rgba(46, 47, 66, 0.08);
 }
 
-.team-color-back:hover .team-social-li {
+/* .team-color-back:hover .team-social-li {
   background-color: rgba(64, 75, 191, 1);
+} */
+.team-social-li:hover,
+.team-social-li:focus,
+.team-social-li:active {
+  background-color: rgba(64, 75, 191, 1);
+}
+
+.team-social-svg {
+  fill: #f4f4fd;
 }
 
 .team-color-back-div {
