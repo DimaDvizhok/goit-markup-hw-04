@@ -453,12 +453,13 @@ img {
   color: #ffffff;
   margin-bottom: 16px;
 }
-
+.footer-logo-p {
+  margin-right: 120px;
+}
 .container.footer {
   display: flex;
-  gap: 120px;
+
   align-items: baseline;
-  margin-right: 120px;
 }
 
 .footer-social-ul {
